@@ -1,45 +1,31 @@
-<p align="center">
-  <a href="https://dojocode.io">
-    <img src="./assets/banner.jpeg" alt="DojoCode - Where Coding Meets Mastery">
-  </a>
-</p>
+# 80+ Free Code Challenges
 
-<p align="center">
-  <b>80+ Free Code Challenges</b> — curated, hands-on coding challenges you can solve right in your browser.
-</p>
+If you find this useful, [:star: star this repo](https://github.com/dojo-coder/free-code-challenges) to help others discover it.
 
-<p align="center">
-  <a href="https://dojocode.io"><img src="https://img.shields.io/badge/Platform-DojoCode.io-blue?style=flat-square" alt="DojoCode"></a>
-  <a href="https://github.com/dojo-coder/free-code-challenges/stargazers"><img src="https://img.shields.io/github/stars/dojo-coder/free-code-challenges?style=flat-square" alt="Stars"></a>
-  <a href="https://github.com/dojo-coder/free-code-challenges/network/members"><img src="https://img.shields.io/github/forks/dojo-coder/free-code-challenges?style=flat-square" alt="Forks"></a>
-  <a href="https://discord.com/invite/7vVMx9nSpX"><img src="https://img.shields.io/badge/Discord-join-7289da?style=flat-square&logo=discord&logoColor=white" alt="Discord"></a>
-  <a href="#contributing"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square" alt="PRs Welcome"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="License"></a>
-</p>
-
-<p align="center">
-  <a href="https://dojocode.io">Website</a> &middot;
-  <a href="https://docs.dojocode.io">Docs</a> &middot;
-  <a href="https://discord.com/invite/7vVMx9nSpX">Discord</a> &middot;
-  <a href="https://www.youtube.com/@dojocode">YouTube</a> &middot;
-  <a href="https://www.linkedin.com/company/dojocodeplatform">LinkedIn</a>
-</p>
+[![Platform: DojoCode](https://img.shields.io/badge/Platform-DojoCode.io-blue?style=flat-square)](https://dojocode.io)
+[![Stars](https://img.shields.io/github/stars/dojo-coder/free-code-challenges?style=flat-square)](https://github.com/dojo-coder/free-code-challenges/stargazers)
+[![Forks](https://img.shields.io/github/forks/dojo-coder/free-code-challenges?style=flat-square)](https://github.com/dojo-coder/free-code-challenges/network/members)
+[![Discord](https://img.shields.io/badge/Discord-join-7289da?style=flat-square&logo=discord&logoColor=white)](https://discord.com/invite/7vVMx9nSpX)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](#contributing)
+[![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 
 ---
 
-## What Is This?
+## Why This List?
 
-A curated collection of **80+ free, hands-on code challenges** across 10+ programming languages. Every challenge runs in the browser on [DojoCode](https://dojocode.io) — no local setup required. Whether you're prepping for interviews, learning a new language, or sharpening your problem-solving skills, this list has something for you.
+Most coding challenge collections focus on algorithm puzzles. This one is different — challenges are organized around **real-world skills** like security, refactoring, caching, API integration, and debugging alongside classic algorithms and data structures.
 
-Each challenge includes automated tests, an AI coding assistant, and support for multiple languages including JavaScript, Python, Java, Go, Rust, C++, TypeScript, and more.
+Every challenge can be solved directly in the browser, powered by [DojoCode](https://dojocode.io). Each one includes:
 
-## How to Use This List
+- **Automated tests** — write code, run tests, get instant feedback
+- **Multi-language support** — JavaScript, Python, Java, Go, Rust, C++, TypeScript, and more
+- **AI hints** — optional [AI assistant](https://docs.dojocode.io) when you're stuck
+
+## How to Use
 
 1. Browse the challenges below by **skill**
-2. Click any challenge link to open it on [DojoCode](https://dojocode.io)
-3. Select your preferred programming language
-4. Write your solution and run the tests
-5. Stuck? Use the built-in [AI Assistant](https://docs.dojocode.io) for hints
+2. Click any challenge to open it in the browser
+3. Pick your language, write your solution, run the tests
 
 ## Table of Contents
 
@@ -216,17 +202,9 @@ Understanding and analyzing compiled or existing systems.
 
 ## About DojoCode
 
-[DojoCode](https://dojocode.io) is a free online coding platform where you can solve challenges, compete in contests, and collaborate with other developers — all in the browser.
+[DojoCode](https://dojocode.io) is a free coding platform — solve challenges, compete in contests, and collaborate with others, all in the browser. Supports 12+ languages with automated tests, live collaboration, and an AI assistant.
 
-- **No setup required** — code and test directly in the browser
-- **12+ languages** — JavaScript, Python, Java, Go, Rust, C++, C#, PHP, Ruby, TypeScript, Solidity, and more
-- **AI Assistant** — get hints and explanations powered by AI
-- **Automated testing** — every challenge has built-in test suites
-- **Live collaboration** — pair program with others in real-time
-- **Contests** — compete with developers worldwide
-- **Gamification** — earn XP, level up, and unlock achievements
-
-[Start Coding on DojoCode](https://dojocode.io)
+[Browse all challenges](https://dojocode.io/explore-challenges) · [Docs](https://docs.dojocode.io) · [Discord](https://discord.com/invite/7vVMx9nSpX) · [YouTube](https://www.youtube.com/@dojocode) · [LinkedIn](https://www.linkedin.com/company/dojocodeplatform)
 
 ---
 
