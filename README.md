@@ -13,13 +13,13 @@ If you find this useful, [:star: star this repo](https://github.com/dojo-coder/f
 
 ## Why This List?
 
-Most coding challenge collections focus on algorithm puzzles. This one is different — challenges are organized around **real-world skills** like security, refactoring, caching, API integration, and debugging alongside classic algorithms and data structures.
+Most coding challenge collections focus on algorithm puzzles. This collection of challenges is organized around **real-world skills** like security, refactoring, caching, API integration, and debugging alongside classic algorithms and data structures.
 
 Every challenge can be solved directly in the browser, powered by [DojoCode](https://dojocode.io). Each one includes:
 
 - **Automated tests** — write code, run tests, get instant feedback
 - **Multi-language support** — JavaScript, Python, Java, Go, Rust, C++, TypeScript, and more
-- **AI hints** — optional [AI assistant](https://docs.dojocode.io) when you're stuck
+- **AI hints** — optional [AI assistant](https://docs.dojocode.io/challenge/ai-assistance.html) when you're stuck  
 
 ## How to Use
 
