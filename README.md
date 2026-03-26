@@ -120,7 +120,6 @@ Connecting services and handling API events — REST, data fetching, and service
 
 Improving code structure without changing behavior — clean code, design patterns, and readability.
 
-- [Magic Number Eliminator](https://dojocode.io/challenge/seb/magic-number-eliminator/nodejs_jest) — Replace hardcoded magic numbers with named constants. `refactoring`
 - [Extract Method Refactor](https://dojocode.io/challenge/seb/extract-method-refactor/nodejs_jest) — Refactor a monolithic function into smaller, well-named helper functions. `refactoring`
 - [Duplicate Code Extractor](https://dojocode.io/challenge/seb/duplicate-code-extractor/nodejs_jest) — Identify and eliminate duplicated logic across multiple functions. `refactoring`
 - [Callback Hell Untangler](https://dojocode.io/challenge/seb/callback-hell-untangler/nodejs_jest) — Refactor deeply nested callbacks into clean, readable async code. `refactoring`
