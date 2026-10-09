@@ -1,4 +1,4 @@
-# 80+ Free Code Challenges
+# 100+ Free Code Challenges
 
 If you find this useful, [:star: star this repo](https://github.com/dojo-coder/free-code-challenges) to help others discover it.
 
@@ -45,6 +45,13 @@ Challenges are organized by [DojoCode skills](https://dojocode.io/skills):
 - [Caching](#caching)
 - [Analytics](#analytics)
 - [Reverse Engineering](#reverse-engineering)
+- [Frontend & UI Development](#frontend--ui-development)
+- [Game Development](#game-development)
+- [Databases](#databases)
+- [Testing](#testing)
+- [Cryptography](#cryptography)
+- [Blockchain & Web3](#blockchain--web3)
+- [AI Agents](#ai-agents)
 
 ---
 
@@ -61,7 +68,6 @@ Logical thinking with performance focus — sorting, searching, recursion, dynam
 - [Cryptic Castle Doors](https://dojocode.io/challenge/seb/cryptic-castle-doors/vue_jest) — Solve a logic puzzle by finding the correct sequence to open castle doors. `algorithms`
 - [Number of Digit One](https://dojocode.io/challenge/daniku/number-of-digit-one/nodejs_jest) — Count the total number of digit 1 appearing in all integers up to n. `algorithms`
 - [Digital Vault Access](https://dojocode.io/challenge/denis_bodea/digital-vault-access/nodejs_jest) — Crack a digital vault by solving a sequence of algorithmic puzzles. `algorithms`
-- [Activity Selection](https://dojocode.io/challenge/denis_bodea/activity-selection/nodejs_jest) — Select the maximum number of non-overlapping activities. `greedy algorithms`
 - [Cycles in a Directed Graph](https://dojocode.io/challenge/denis_bodea/cycles-in-a-directed-graph/nodejs_jest) — Detect whether a directed graph contains any cycles. `algorithms` `recursion`
 - [Shortest Path in a Weighted Graph](https://dojocode.io/challenge/denis_bodea/shortest-path-in-a-weighted-graph/python) — Find the shortest path between nodes using Dijkstra's or similar algorithm. `algorithms`
 - [Graph is Bipartite](https://dojocode.io/challenge/denis_bodea/graph-is-bipartite/python) — Determine if a graph can be colored with two colors such that no adjacent nodes share a color. `algorithms`
@@ -91,7 +97,7 @@ Building real-time and simulation systems — game logic, state management, and 
 - [Snake Game](https://dojocode.io/challenge/daniku/snakegame/vanillats_jest) — Implement the core movement, growth, and collision logic for Snake. `game logic` `gamedev`
 - [Memory Game](https://dojocode.io/challenge/denis_bodea/memory-game/react_jest) — Build a card matching memory game with flip and match mechanics. `game logic`
 - [The Vanishing Number](https://dojocode.io/challenge/daniku/the-vanishing-number/react_jest) — Track and find the vanishing number in an interactive number sequence. `simulation`
-- [Hangman Game](https://dojocode.io/challenge/daniku/hangman-game/react) — Implement the classic word-guessing game with lives and letter tracking. `game logic`
+- [Hangman Game](https://dojocode.io/challenge/daniku/hangman-game/react_jest) — Implement the classic word-guessing game with lives and letter tracking. `game logic`
 - [Game of Life](https://dojocode.io/challenge/seb/game-of-life/vanillajs_jest) — Simulate Conway's cellular automaton with birth, death, and survival rules. `simulation`
 - [Attack and Defend](https://dojocode.io/challenge/daniku/attack-and-defend/nodejs_jest) — Build a combat simulation system with attack, defense, and health mechanics. `game logic` `simulation`
 - [Debug Dash](https://dojocode.io/challenge/denis_bodea/debug-dash/vue_jest) — Navigate through a debugging-themed interactive dashboard challenge. `simulation` `gamedev`
@@ -162,7 +168,7 @@ Making systems usable for all users — ARIA, keyboard navigation, and inclusive
 
 - [ARIA Label Generator](https://dojocode.io/challenge/seb/aria-label-generator/vue_jest) — Generate proper ARIA labels to make UI elements accessible to screen readers. `accessibility`
 - [Skip Link Generator](https://dojocode.io/challenge/denis_bodea/skip-link-generator/vue_jest) — Create skip navigation links for keyboard users to bypass repetitive content. `accessibility`
-- [Color Contrast Checker](https://dojocode.io/challenge/seb/color-contrast-checker/vue_jest) — Check if text and background color combinations meet WCAG contrast ratios. `accessibility`
+- [WCAG Color Contrast Checker](https://dojocode.io/challenge/denis_bodea/wcag-color-contrast-checker/react_jest) — Check if text and background color combinations meet WCAG contrast ratios. `accessibility`
 - [Tabsy](https://dojocode.io/challenge/denis_bodea/tabsy/react_jest) — Build an accessible tabbed interface with proper keyboard navigation and ARIA roles. `accessibility`
 - [Fix the Inaccessible Shopping Cart](https://dojocode.io/challenge/seb/fix-the-inaccessible-shopping-cart/vue_jest) — Identify and fix all accessibility issues in a broken shopping cart UI. `accessibility`
 
@@ -197,6 +203,62 @@ Understanding and analyzing compiled or existing systems.
 - [Protocol Pattern Detector](https://dojocode.io/challenge/seb/protocol-pattern-detector/nodejs_jest) — Analyze data streams to detect and classify communication protocol patterns. `reverse engineering`
 - [Obfuscated String Decoder](https://dojocode.io/challenge/seb/obfuscated-string-decoder/nodejs_jest) — Reverse-engineer an encoding scheme and decode obfuscated strings. `reverse engineering`
 - [Deobfuscate the Password Validator](https://dojocode.io/challenge/seb/deobfuscate-the-password-validator/nodejs_jest) — Analyze obfuscated validation logic, understand its behavior, and rewrite it cleanly. `reverse engineering`
+
+## Frontend & UI Development
+
+Building user interfaces and client-side applications — components, state, forms, and mobile UI.
+
+- [Budget Tracker](https://dojocode.io/challenge/daniku/budget-tracker/react_jest) — Manage income and expense transactions across components that share state. `state management` `form handling`
+- [Gift Exchange Draw](https://dojocode.io/challenge/denis_bodea/gift-exchange-draw/react_jest) — Collect participant names and randomly draw gift-exchange pairs. `form handling` `randomization`
+- [Profile Card](https://dojocode.io/challenge/denis_bodea/profile-card/react-native) — Build a mobile profile card in React Native with a working Follow button. `components` `user interface`
+
+## Game Development
+
+Creating games and interactive experiences — game rules, game loops, and engines like Phaser.
+
+- [Rock Paper Scissors](https://dojocode.io/challenge/seb/rock-paper-scissors/vue_jest) — Play rock paper scissors against the computer and keep score. `game` `state management`
+- [Bounce & Catch](https://dojocode.io/challenge/denis_bodea/bounce-and-catch/vanillajs_jest) — Write the rules of a Phaser game where players click a bouncing ball to score. `gamedev` `game logic`
+- [Balloon Pop](https://dojocode.io/challenge/denis_bodea/balloon-pop/vanillajs_jest) — Write the rules of a Phaser game where players pop rising balloons before they escape. `gamedev` `game logic`
+
+## Databases
+
+Modeling, querying and maintaining data with SQL — tables, inserts, and views.
+
+- [Create Your First Table](https://dojocode.io/challenge/denis_bodea/create-your-first-table/pglite) — Create a books table with the right column types and constraints. `sql` `databases`
+- [Seed the Crew Roster](https://dojocode.io/challenge/denis_bodea/seed-the-crew-roster/pglite) — Fill a prepared table with the mission crew using INSERT statements. `sql` `databases`
+- [High Earners View](https://dojocode.io/challenge/denis_bodea/high-earners-view/pglite) — Create a view that exposes the name and salary of the best-paid employees. `sql` `databases`
+
+## Testing
+
+Ensuring reliability through testing — the code is already correct, and you write the tests that catch its hidden buggy copies.
+
+- [Clamp: Write the Tests](https://dojocode.io/challenge/denis_bodea/clamp-write-the-tests/nodejs_jest) — Write tests that prove a clamp function respects both of its boundaries. `testing`
+- [Remove Duplicates: Write the Tests](https://dojocode.io/challenge/denis_bodea/remove-duplicates-write-the-tests/nodejs_jest) — Write tests that catch every buggy copy of a duplicate-removal function. `testing`
+- [Like Button: Write the Tests](https://dojocode.io/challenge/denis_bodea/like-button-write-the-tests/react_jest) — Test a React post component by clicking its Like button the way a user would. `testing` `frontend`
+
+## Cryptography
+
+Implementing encryption and secure data handling — encodings, hashes, and binary data.
+
+- [Encoding Detective](https://dojocode.io/challenge/denis_bodea/encoding-detective/python) — Identify which common encoding an unreadable value uses and decode it. `decoding`
+- [Hash Verifier](https://dojocode.io/challenge/denis_bodea/hash-verifier/python) — Check stored digests by hashing each candidate again and comparing the results. `hash`
+- [Binary Code Translator](https://dojocode.io/challenge/daniku/vanillats-binary-code-translator/vanillats_jest) — Convert text to binary code and back. `encoding` `decoding`
+
+## Blockchain & Web3
+
+Developing decentralized applications and smart contracts — addresses, ledgers, and gas fees.
+
+- [Crypto Address Validator](https://dojocode.io/challenge/denis_bodea/crypto-address-validator/rust) — Tell Ethereum and Bitcoin addresses apart and explain why invalid ones fail. `blockchain` `web3`
+- [Transaction Ledger Builder](https://dojocode.io/challenge/denis_bodea/transaction-ledger-builder/rust) — Apply a list of transactions and report the balances they leave behind. `blockchain`
+- [Gas Fee Estimator](https://dojocode.io/challenge/denis_bodea/gas-fee-estimator/rust) — Calculate the burned fee, tip and total cost of an EIP-1559 Ethereum transaction. `ethereum`
+
+## AI Agents
+
+Building AI agents that plan, use tools and retrieve knowledge — tokens, context windows, and prompt safety.
+
+- [Token Budget Estimator](https://dojocode.io/challenge/denis_bodea/token-budget-estimator/nodejs_jest) — Estimate token usage and check whether a conversation fits a context window. `ai agents`
+- [Prompt Injection Detector](https://dojocode.io/challenge/denis_bodea/prompt-injection-detector/python) — Flag the known prompt-injection markers in a message bound for a language model. `ai agents` `security`
+- [Chat History Trimmer](https://dojocode.io/challenge/denis_bodea/chat-history-trimmer/nodejs_jest) — Trim an over-budget conversation without ever dropping the system instruction. `ai agents`
 
 ---
 
